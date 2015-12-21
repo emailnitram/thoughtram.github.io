@@ -1,0 +1,38 @@
+.thtrm-table-layout {
+  display: block;
+  width: 100%;
+
+  @include tablet {
+    display: table;
+    overflow: hidden;
+    border-collapse: collapse;
+  }
+}
+
+.thtrm-table-layout-row {
+  @include tablet {
+    display: table-row;
+    overflow: hidden;
+  }
+}
+
+.thtrm-table-layout-cell {
+  vertical-align: top;
+  height: 100%;
+
+  @include tablet {
+    display: table-cell;
+
+    .--with-two-columns & {
+      width: 50%;
+    }
+
+    .--with-three-columns & {
+      width: 33.333333%;
+    }
+
+    .--with-four-columns & {
+      width: 25%;
+    }
+  }
+}

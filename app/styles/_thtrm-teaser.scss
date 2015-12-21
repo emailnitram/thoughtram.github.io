@@ -1,0 +1,77 @@
+.thtrm-teaser {
+  background-color: $thtrmBlue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #90BAC7;
+  background-blend-mode: multiply;
+  text-align: center;
+  padding: 6em 0;
+
+  @include phablet {
+    padding: 8em 0;
+  }
+
+  @include desktop {
+    padding: 10em 0 6em;
+  }
+
+  &.--code-review {
+    background-image: url('/images/teaser-background-code-review.jpg');
+
+    @include phablet {
+      background-image: url('/images/teaser-background-code-review_phablet.jpg');
+    }
+
+    @include tablet {
+      background-image: url('/images/teaser-background-code-review.jpg');
+    }
+  }
+
+  &.--online-training {
+    background-image: url('/images/teaser-background-online-training_phone.jpg');
+
+    @include phablet {
+      background-image: url('/images/teaser-background-online-training_phablet.jpg');
+    }
+
+    @include tablet {
+      background-image: url('/images/teaser-background-online-training_phone.jpg');
+    }
+  }
+
+  &.--onsite-training {
+    background-image: url('/images/teaser-background-onsite-training_phone.jpg');
+
+    @include phablet {
+      background-image: url('/images/teaser-background-onsite-training_phablet.jpg');
+    }
+
+    @include tablet {
+      background-image: url('/images/teaser-background-onsite-training_phone.jpg');
+    }
+  }
+}
+
+.thtrm-teaser-headline {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 0.8em;
+}
+
+.thtrm-teaser-cta {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #fff;
+    color: #123742;
+  }
+}
