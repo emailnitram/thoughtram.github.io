@@ -1,9 +1,9 @@
 .thtrm-teaser {
-  background-color: $thtrmBlue;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-color: #90BAC7;
+  // background-color: #384c54;
   background-blend-mode: multiply;
   text-align: center;
   padding: 6em 0;
@@ -73,5 +73,22 @@
   &:hover {
     background-color: #fff;
     color: #123742;
+  }
+}
+
+.thtrm-teaser-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #90BAC7;
+  background-blend-mode: multiply;
+  height: 400px;
+
+  &.--conversation {
+    background-image: url('/images/teaser-background-online-training_phablet.jpg');
+  }
+
+  &.--group {
+    background-image: url('/images/background-onsite-training-2.jpg');
   }
 }

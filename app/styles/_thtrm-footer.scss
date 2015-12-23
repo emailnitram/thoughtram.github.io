@@ -1,7 +1,6 @@
 .thtrm-footer {
   background-color: #fff;
   text-align: center;
-  border-bottom: 10px solid #6d92a0;
 }
 
 .thtrm-footer-text {
@@ -10,11 +9,11 @@
   background-color: rgb(29, 46, 53);
 
   p {
-    line-height: 28px;
-    color: rgb(109, 146, 160);
+    line-height: 32px;
+    color: #fff;
 
-    &:first-child {
-      color: #fff;
+    &:first-of-type {
+      color: rgb(109, 146, 160);
     }
   }
 
@@ -25,7 +24,7 @@
   }
 
   @include tablet {
-    padding: 2.5em 4em 1.5em;
+    padding: 2.5em 4em 1.8em;
   }
 }
 
@@ -66,8 +65,9 @@
 }
 
 .thtrm-footer-logo {
-  margin-top: 1em;
-  width: 50px;
+  width: 55px;
+  margin-bottom: 0.5em;
+  margin-top: 0;
 }
 
 .thtrm-footer-headline {

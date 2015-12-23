@@ -1,24 +1,25 @@
 .thtrm-testimonial-image {
   height: 300px;
-  background-color: #4D8799;
+  // background-color: #4D8799;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // background-color: #90BAC7;
+  background-color: #90BAC7;
+  // background-color: #384c54;
   background-blend-mode: multiply;
   text-align: center;
   position: relative;
 
   .--mike-adolphs & {
-    background-image: url('/images/testimonial-mike.png');
+    background-image: url('/images/testimonial-mike.png'), linear-gradient(transparent, #384c54);
   }
 
   .--celine-kurpershoek & {
-    background-image: url('/images/testimonial-celine.jpg');
+    background-image: url('/images/testimonial-celine.jpg'), linear-gradient(transparent, #384c54);
   }
 
   .--brad-green & {
-    background-image: url('/images/testimonial-brad.jpg');
+    background-image: url('/images/testimonial-brad.jpg'), linear-gradient(transparent, #384c54);
   }
 }
 
