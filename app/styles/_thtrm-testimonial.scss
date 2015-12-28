@@ -33,6 +33,8 @@
   position: absolute;
   bottom: 1em;
   left: 1em;
+  right: 1em;
+  text-align: center;
 
   span {
     display: block;
@@ -56,5 +58,6 @@
     font-size: 18px;
     line-height: 26px;
     font-style: italic;
+    text-align: center;
   }
 }
