@@ -82,7 +82,11 @@
   background-position: center center;
   background-color: #90BAC7;
   background-blend-mode: multiply;
-  height: 600px;
+  height: 300px;
+
+  @include tablet {
+    height: 450px;
+  }
 
   &.--conversation {
     background-image: url('/images/teaser-background-online-training_phablet.jpg');
@@ -99,4 +103,35 @@
   &.--banner2 {
     background-image: url('/images/event-banner-2.jpg');
   }
+}
+
+.thtrm-teaser-box {
+  background-color: #384c54;
+  padding: 3em 1.5em;
+
+  p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  h4 {
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  @include tablet {
+    height: 450px;
+    padding: 8em 2em;
+  }
+
+  @include tablet {
+    padding: 10em 4em;
+  }
+
 }
