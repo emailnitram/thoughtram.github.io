@@ -7,14 +7,13 @@
   background-blend-mode: multiply;
 
   .--sub-site & {
-    background-color: #445D67;
     background-size: cover;
   }
 
   &.--training {
     background-image: url('/images/teaser-background-onsite-training_phablet.jpg');
     @include desktop {
-      background-position-y: -70px;
+      background-position-y: -120px;
     }
   }
 
