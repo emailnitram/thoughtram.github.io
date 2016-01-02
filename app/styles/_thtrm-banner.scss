@@ -5,6 +5,7 @@
   background-color: #90BAC7;
   // background-color: #384c54;
   background-blend-mode: multiply;
+  text-align: center;
 
   .--sub-site & {
     background-size: cover;
@@ -19,7 +20,9 @@
 
   &.--code-review {
     background-image: url('/images/teaser-background-code-review_phablet.jpg');
-    background-position-y: -200px;
+    @include desktop {
+      background-position-y: -200px;
+    }
   }
 
   @include tablet {
@@ -30,6 +33,12 @@
   @include desktop {
     background-image: url('/images/intro-background-desktop.jpg');
   }
+}
+
+.thtrm-banner-logo {
+  text-align: center;
+  width: 180px;
+  margin-bottom: 0.5em;
 }
 
 .thtrm-banner-text {
@@ -85,7 +94,7 @@
 }
 
 .thtrm-banner-container {
-  padding: 16em 0.5em;
+  padding: 10em 0.5em;
 
   .--sub-site & {
     padding: 8em 0.5em;
@@ -104,5 +113,10 @@
   @include desktop {
     padding-top: 23em;
     padding-bottom: 21em;
+
+    .--class & {
+      padding-top: 10em;
+      padding-bottom: 8em;
+    }
   }
 }

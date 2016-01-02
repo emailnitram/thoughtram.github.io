@@ -108,21 +108,10 @@
 .thtrm-teaser-box {
   background-color: #384c54;
   padding: 3em 1.5em;
+  text-align: center;
 
-  p {
-    color: #fff;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-    margin-top: 1em;
-  }
-
-  h4 {
-    font-size: 22px;
-    margin: 0;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
+  @include phablet {
+    padding: 4em 5.5em;
   }
 
   @include tablet {
@@ -130,8 +119,75 @@
     padding: 8em 2em;
   }
 
-  @include tablet {
-    padding: 10em 4em;
+  @include desktop {
+    padding: 5em 4em;
   }
 
+  &.--brain-background {
+    background-image: url('/images/thoughtram_brain_test.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .material-icons {
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 0.2em;
+    font-weight: 400;
+  }
+}
+
+.thtrm-teaser-box-headline {
+  font-size: 22px;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.thtrm-teaser-box-text {
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 1em;
+}
+
+.thtrm-teaser-box-list {
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-left: -3em;
+}
+
+.thtrm-teaser-box-list-item {
+  display: inline-block;
+  margin-left: 1em;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  .material-icons {
+    vertical-align: -20%;
+    margin-right: 0.2em;
+  }
+}
+
+.thtrm-teaser-box-cta {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-weight: 600;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #fff;
+    color: #123742;
+  }
 }

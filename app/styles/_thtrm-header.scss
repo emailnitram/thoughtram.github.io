@@ -10,11 +10,6 @@
   height: 70px;
   position: relative;
 
-  // .--sub-site & {
-  //   background-color: rgb(29, 46, 53);
-  //   background-color: #384c54;
-  // }
-
   @include tablet {
     height: initial;
     padding-bottom: 25px;
@@ -137,6 +132,11 @@
 
     li {
       display: flex;
+      margin-left: 1em;
+
+      &:first-child {
+        margin-left: 0;
+      }
     }
 
     .thtrm-header-menu-wrapper:hover &,
