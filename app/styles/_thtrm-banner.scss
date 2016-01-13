@@ -25,6 +25,13 @@
     }
   }
 
+  &.--a2mc {
+    background-image: url('/images/background-ng-connect.jpg');
+    @include desktop {
+      background-position-y: -280px;
+    }
+  }
+
   @include tablet {
     background-image: url('/images/intro-background-tablet.jpg');
     background-size: cover;

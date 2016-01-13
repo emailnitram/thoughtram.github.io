@@ -97,7 +97,7 @@
   }
 
   &.--other {
-    background-image: url('/images/background-onsite-training.jpg');
+    background-image: url('/images/background-onsite-training-2.jpg');
   }
 
   &.--banner2 {
@@ -123,18 +123,15 @@
     padding: 5em 4em;
   }
 
-  &.--brain-background {
-    background-image: url('/images/thoughtram_brain_test.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-
   .material-icons {
-    font-size: 70px;
+    font-size: 65px;
     color: #fff;
     margin-bottom: 0.2em;
     font-weight: 400;
+
+    @include phablet {
+      font-size: 70px;
+    }
   }
 }
 
