@@ -111,6 +111,10 @@
   &.--review2 {
     background-image: url('/images/event-banner-4.jpg');
   }
+
+  &.--testimonial-brad {
+    background-image: url('/images/testimonial-brad-green.png');
+  }
 }
 
 .thtrm-teaser-box {
@@ -158,26 +162,26 @@
 }
 
 .thtrm-teaser-box-list {
+  margin-top: 1.5em;
+  padding: 0;
   list-style: none;
   color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 1.5em;
-  margin-left: -3em;
+  // text-transform: uppercase;
+  text-align: left;
+  // font-weight: 600;
+  font-size: 18px;
+  margin-left: 3em;
 }
 
 .thtrm-teaser-box-list-item {
-  display: inline-block;
-  margin-left: 1em;
 
-  &:first-child {
-    margin-left: 0;
-  }
+  margin-top: 0.5em;
 
   .material-icons {
-    vertical-align: -20%;
+    vertical-align: -25%;
     margin-right: 0.2em;
+    font-size: 26px;
+    font-weight: bold;
   }
 }
 
