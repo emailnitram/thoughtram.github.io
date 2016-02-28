@@ -1,10 +1,16 @@
 .thtrm-footer {
   background-color: #fff;
   text-align: center;
+  
+  &.--slim {
+    .thtrm-footer-text-cta {
+      padding-top: 0;
+    }
+  }
 }
 
 .thtrm-footer-text {
-  padding: 2em 0;
+  padding: 2em 1.5em;
   background-color: rgb(29, 46, 53);
 
   p {
@@ -49,6 +55,7 @@
   padding: 0.5em 1em;
   margin-top: 1em;
   font-weight: 600;
+  transition: (color .2s ease-out, background .2s ease-out);
 
   &:hover {
     color: #fff;

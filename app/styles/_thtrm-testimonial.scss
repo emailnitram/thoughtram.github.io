@@ -1,5 +1,5 @@
 .thtrm-testimonial-image {
-  height: 300px;
+  padding-bottom: 50%;
   // background-color: #4D8799;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,19 @@
   background-blend-mode: multiply;
   text-align: center;
   position: relative;
+  
+  @include phablet {
+    padding-bottom: 40%;
+  }
+  @include tablet {
+    padding-bottom: 100%;
+  }
 
+  @include tv {
+    height: 375px;
+    padding-bottom: 0;
+  }
+  
   .--mike-adolphs & {
     background-image: url('/images/testimonial-mike.png'), linear-gradient(transparent, #384c54);
   }
@@ -19,7 +31,7 @@
   }
 
   .--brad-green & {
-    background-image: url('/images/testimonial-brad-green.png'), linear-gradient(transparent, #384c54);
+    background-image: url('/images/testimonial-brad-green.jpg'), linear-gradient(transparent, #384c54);
   }
 }
 

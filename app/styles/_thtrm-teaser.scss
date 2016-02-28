@@ -69,6 +69,7 @@
   display: inline-block;
   padding: 0.5em 1em;
   font-weight: 600;
+  transition: (color .2s ease-out, background .2s ease-in);
 
   &:hover {
     background-color: #fff;
@@ -77,16 +78,12 @@
 }
 
 .thtrm-teaser-image {
+  padding-bottom: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-color: #90BAC7;
   background-blend-mode: multiply;
-  height: 300px;
-
-  @include tablet {
-    height: 450px;
-  }
 
   &.--conversation {
     background-image: url('/images/teaser-background-online-training_phablet.jpg');
@@ -127,7 +124,6 @@
   }
 
   @include tablet {
-    height: 450px;
     padding: 3em 2em;
   }
 
@@ -140,6 +136,7 @@
     color: #fff;
     margin-bottom: 0.2em;
     font-weight: 400;
+    line-height: .6;
 
     @include phablet {
       font-size: 70px;
@@ -159,6 +156,7 @@
   font-size: 18px;
   line-height: 26px;
   margin-top: 1em;
+  
 }
 
 .thtrm-teaser-box-list {

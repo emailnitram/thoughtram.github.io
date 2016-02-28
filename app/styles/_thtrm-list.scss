@@ -1,0 +1,36 @@
+.thtrm-list {
+  list-style: none;
+  margin: 0 0 0 -4em;
+  padding: 0;
+  letter-spacing: -.31em;
+  text-align: center;
+  
+  &:first-child {
+    margin-top: -1em;
+    
+    @include phablet {
+      margin-top: -3em;
+    }
+  }
+  
+  > li {
+    display: inline-block;
+    padding-left: 4em;
+    padding-top: 1em;
+    vertical-align: middle;
+    width: 50%;
+    letter-spacing: normal;
+    
+    @include phablet {
+      padding-top: 3em;
+      width: 33.33%;
+    }
+    
+    img {
+      display: inline-block;
+      height: auto;
+      max-height: 75px;
+      max-width: 100%;
+    }
+  }
+}

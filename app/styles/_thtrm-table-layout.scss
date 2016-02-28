@@ -7,6 +7,10 @@
     overflow: hidden;
     border-collapse: collapse;
   }
+
+  &.--filled {
+    background: #384c54;
+  }
 }
 
 .thtrm-table-layout-row {
@@ -25,6 +29,10 @@
 
     .--with-two-columns & {
       width: 50%;
+      
+      &.thtrm-teaser-image {
+        padding-bottom: 0;
+      }
     }
 
     .--with-three-columns & {

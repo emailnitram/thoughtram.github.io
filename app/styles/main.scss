@@ -67,12 +67,13 @@ p {
   background: #eee;
 }
 
-@import './thtrm-header';
-@import './thtrm-banner';
-@import './thtrm-section';
-@import './thtrm-table-layout';
-@import './thtrm-teaser';
-@import './thtrm-instructor';
-@import './thtrm-testimonial';
-@import './thtrm-topic-box';
-@import './thtrm-footer';
+@import 'thtrm-header',
+        'thtrm-banner',
+        'thtrm-section',
+        'thtrm-table-layout',
+        'thtrm-teaser',
+        'thtrm-instructor',
+        'thtrm-testimonial',
+        'thtrm-topic-box',
+        'thtrm-list',
+        'thtrm-footer';

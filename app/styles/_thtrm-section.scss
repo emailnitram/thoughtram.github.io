@@ -5,12 +5,23 @@
 
   &.--is-promo {
     background: rgba(56, 76, 84, 1);
-    padding: 3em 2em 4em;
+    padding: 3em 2em;
   }
 
   &.--banner {
     background: rgba(56, 76, 84, 1);
     padding: 12em 1.5em 10em;
+  }
+  &.--symbol {
+    padding-top: 10em;
+    position: relative;
+    
+    .thtrm-section-image {
+      left: 50%;
+      position: absolute;
+      top: 2em;
+      transform: translateX(-50%);
+    }
   }
 
   @include tablet {
@@ -19,19 +30,16 @@
     &.--banner {
       padding: 12em 4em 14em;
     }
-
-    &.--is-promo {
-      height: 420px;
-    }
   }
 
   @include desktop {
     padding: 6em 4em;
-
-    &.--is-promo {
-      height: 375px;
-    }
   }
+}
+
+.thtrm-section-constrained {
+  max-width: 800px;
+  margin: 2em auto 0;
 }
 
 .thtrm-section-image {
