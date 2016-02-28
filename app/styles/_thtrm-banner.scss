@@ -13,22 +13,17 @@
 
   &.--training {
     background-image: url('/images/teaser-background-onsite-training_phablet.jpg');
-    @include desktop {
-      background-position-y: -120px;
-    }
   }
 
   &.--code-review {
     background-image: url('/images/teaser-background-code-review_phablet.jpg');
-    @include desktop {
-      background-position-y: -200px;
-    }
   }
 
   &.--a2mc {
     background-image: url('/images/background-ng-connect.jpg');
-    @include desktop {
-      background-position-y: -280px;
+    
+    @include tv {
+      background-position: center -200px;
     }
   }
 

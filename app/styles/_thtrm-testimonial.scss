@@ -14,11 +14,15 @@
     padding-bottom: 40%;
   }
   @include tablet {
-    padding-bottom: 100%;
+    padding-bottom: 90%;
+  }
+
+  @include desktop {
+    padding-bottom: 70%;
   }
 
   @include tv {
-    height: 375px;
+    height: 320px;
     padding-bottom: 0;
   }
   
