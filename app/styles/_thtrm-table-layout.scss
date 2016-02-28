@@ -9,10 +9,16 @@
   }
 
   &.--filled {
-    border-top: 2em solid #384c54;
     background: #384c54;
   }
-  &.--filled + &.--filled {
+  &.--filled-space {
+    background: #384c54;
+    border-top: 2em solid #384c54;
+  }
+  &.--filled-space + &.--filled-space {
+    border-top: none;
+  }
+  &.--filled-space.--last {
     border-bottom: 2em solid #384c54;
     border-top: none;
   }
