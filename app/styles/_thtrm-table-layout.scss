@@ -8,6 +8,10 @@
     border-collapse: collapse;
   }
 
+  &.--space {
+    margin-top: 3em;
+  }
+
   &.--filled {
     background: #384c54;
   }
