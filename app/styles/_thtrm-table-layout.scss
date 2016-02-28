@@ -9,7 +9,12 @@
   }
 
   &.--filled {
+    border-top: 2em solid #384c54;
     background: #384c54;
+  }
+  &.--filled + &.--filled {
+    border-bottom: 2em solid #384c54;
+    border-top: none;
   }
 }
 
@@ -41,6 +46,18 @@
 
     .--with-four-columns & {
       width: 25%;
+    }
+  }
+  &.--bordered {
+    padding: 3em;
+    box-shadow: inset 0 0 0 20px #384c54, inset 0 0 0 22px #fff;
+    
+    .thtrm-topic-box-content {
+      padding: 0;
+      border: none;
+    }
+    .thtrm-topic-box {
+      padding: 0;
     }
   }
 }
