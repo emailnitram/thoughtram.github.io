@@ -1,4 +1,4 @@
-// @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900);
 
 @import './variables';
 
@@ -49,13 +49,15 @@ blockquote {
   position: relative;
   font-size: 1.2em;
   font-style: italic;
-  
+
   &:before {
     content: '"';
+    display: block;
     left: 50%;
+    margin-left: -.1em;
     position: absolute;
     top: 0.05em;
-    font-family: Courier;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 5em;
     transform: translateX(-50%);
     color: #cacaca;

@@ -114,6 +114,46 @@
   }
 }
 
+.thtrm-teaser-quote {
+  padding-bottom: 14%;
+  padding-top: 14%;
+  position: relative;
+  background: url('/images/quote-placeholder.jpg') no-repeat center / cover;
+  background-blend-mode: multiply;
+  color: #fff;
+  text-align: center;
+
+  @include tablet {
+    padding: 0;
+  }
+
+  blockquote {
+    margin: 0;
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 100%;
+
+    @include tablet {
+      left: 50%;
+      padding-bottom: 0;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    @include desktop {
+      font-size: 1.4em;
+    }
+
+    &:before {
+      color: #fff;
+    }
+
+    span {
+      font-size: 1em;
+    }
+  }
+}
+
 .thtrm-teaser-box {
   background-color: #384c54;
   padding: 3em 1.5em;
@@ -156,7 +196,7 @@
   font-size: 18px;
   line-height: 26px;
   margin-top: 1em;
-  
+
 }
 
 .thtrm-teaser-box-list {
