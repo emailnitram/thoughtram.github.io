@@ -22,33 +22,25 @@
     @include phablet {
       background-image: url('/images/teaser-background-code-review_phablet.jpg');
     }
-
-    @include tablet {
-      background-image: url('/images/teaser-background-code-review.jpg');
-    }
   }
 
   &.--online-training {
-    background-image: url('/images/teaser-background-online-training_phone.jpg');
+    background-image: url('/images/teaser-background-online-training.jpg');
 
     @include phablet {
       background-image: url('/images/teaser-background-online-training_phablet.jpg');
     }
-
-    @include tablet {
-      background-image: url('/images/teaser-background-online-training_phone.jpg');
-    }
   }
 
   &.--onsite-training {
-    background-image: url('/images/teaser-background-onsite-training_phone.jpg');
+    background-image: url('/images/teaser-background-onsite-training.jpg');
 
     @include phablet {
       background-image: url('/images/teaser-background-onsite-training_phablet.jpg');
     }
 
     @include tablet {
-      background-image: url('/images/teaser-background-onsite-training_phone.jpg');
+      background-image: url('/images/teaser-background-onsite-training_desktop.jpg');
     }
   }
 }

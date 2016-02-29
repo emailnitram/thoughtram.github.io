@@ -1,39 +1,53 @@
 .thtrm-banner {
-  background-image: url('/images/intro-background-mobile.jpg');
+  background-image: url('/images/intro-background.jpg');
   background-repeat: no-repeat;
+  background-position: right center;
   background-size: cover;
   background-color: #90BAC7;
   // background-color: #384c54;
   background-blend-mode: multiply;
   text-align: center;
 
+  @include phablet {
+    background-image: url('/images/intro-background-phablet.jpg');
+  }
+
+  @include tablet {
+    background-position: center;
+    background-image: url('/images/intro-background-desktop.jpg');
+  }
+
   .--sub-site & {
     background-size: cover;
   }
 
   &.--training {
-    background-image: url('/images/teaser-background-onsite-training_phablet.jpg');
-  }
+    background-image: url('/images/teaser-background-onsite-training.jpg');
 
-  &.--code-review {
-    background-image: url('/images/teaser-background-code-review_phablet.jpg');
-  }
-
-  &.--a2mc {
-    background-image: url('/images/background-ng-connect.jpg');
-    
-    @include tv {
-      background-position: center -200px;
+    @include desktop {
+      background-image: url('/images/teaser-background-onsite-training_desktop.jpg');
     }
   }
 
-  @include tablet {
-    background-image: url('/images/intro-background-tablet.jpg');
-    background-size: cover;
+  &.--code-review {
+    background-image: url('/images/teaser-background-code-review.jpg');
+
+    @include phablet {
+      background-position: top center;
+      background-image: url('/images/teaser-background-code-review_phablet.jpg');
+    }
+    @include desktop {
+      background-image: url('/images/teaser-background-code-review_desktop.jpg');
+    }
   }
 
-  @include desktop {
-    background-image: url('/images/intro-background-desktop.jpg');
+  &.--a2mc {
+    background-position: left center;
+    background-image: url('/images/background-ng-connect.jpg');
+
+    @include tablet {
+      background-image: url('/images/background-ng-connect_desktop.jpg');
+    }
   }
 }
 
