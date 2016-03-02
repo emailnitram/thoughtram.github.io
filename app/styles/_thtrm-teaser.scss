@@ -201,17 +201,29 @@
   text-align: left;
   // font-weight: 600;
   font-size: 18px;
+  font-weight: bold;
   margin-left: 3em;
 }
 
 .thtrm-teaser-box-list-item {
-  margin-top: 0.5em;
+  padding: .75em 1em;
+  background: rgba(255,255,255,.05);
+  border: 2px solid #fff;
+  border-top-width: 0;
+
+  &:first-child {
+    border-top-width: 2px;
+  }
 
   .material-icons {
     vertical-align: -25%;
-    margin-right: 0.2em;
-    font-size: 26px;
+    margin-right: 0.4em;
+    padding: 0.2em;
+    font-size: 18px;
     font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 1;
   }
 }
 
