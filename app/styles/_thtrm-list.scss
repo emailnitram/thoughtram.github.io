@@ -29,8 +29,20 @@
     img {
       display: inline-block;
       height: auto;
-      max-height: 75px;
+      max-height: 120px;
       max-width: 100%;
+    }
+
+    span {
+      display: block;
+      text-decoration: none;
+      color: #AAA;
+      font-size: 20px;
+      margin-top: 1em;
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 }
