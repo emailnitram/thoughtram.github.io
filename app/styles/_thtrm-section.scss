@@ -20,7 +20,7 @@
   &.--symbol {
     padding-top: 10em;
     position: relative;
-    
+
     .thtrm-section-image {
       left: 50%;
       position: absolute;
@@ -126,7 +126,7 @@
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 1em;
-  transition: (color .2s ease-out, background .2s ease-in);
+  // transition: (color .2s ease-out, background .2s ease-in);
 
   .--is-promo & {
     color: #fff;

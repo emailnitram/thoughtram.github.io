@@ -1,7 +1,7 @@
 .thtrm-footer {
   background-color: #fff;
   text-align: center;
-  
+
   &.--slim {
     .thtrm-footer-text-cta {
       padding-top: 0;
@@ -55,7 +55,7 @@
   padding: 0.5em 1em;
   margin-top: 1em;
   font-weight: 600;
-  transition: (color .2s ease-out, background .2s ease-out);
+  // transition: (color .2s ease-out, background .2s ease-out);
 
   &:hover {
     color: #fff;

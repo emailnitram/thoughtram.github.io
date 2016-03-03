@@ -61,7 +61,7 @@
   display: inline-block;
   padding: 0.5em 1em;
   font-weight: 600;
-  transition: (color .2s ease-out, background .2s ease-in);
+  // transition: (color .2s ease-out, background .2s ease-in);
 
   &:hover {
     background-color: #fff;
@@ -202,12 +202,12 @@
   // font-weight: 600;
   font-size: 18px;
   font-weight: bold;
-  margin-left: 3em;
+  margin-left: 0;
 }
 
 .thtrm-teaser-box-list-item {
   padding: .75em 1em;
-  background: rgba(255,255,255,.05);
+  // background: rgba(255,255,255,.05);
   border: 2px solid #fff;
   border-top-width: 0;
 
@@ -236,7 +236,7 @@
   padding: 0.5em 1em;
   font-weight: 600;
   font-size: 16px;
-  transition: (color .2s ease-out, background .2s ease-in);
+  // transition: (color .2s ease-out, background .2s ease-in);
 
   &:hover {
     background-color: #fff;
