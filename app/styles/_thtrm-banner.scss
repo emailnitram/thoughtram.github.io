@@ -49,6 +49,15 @@
       background-image: url('/images/background-ng-connect_desktop.jpg');
     }
   }
+
+  &.--imprint {
+    background-image: url('/images/background-imprint.jpg');
+
+    @include tv {
+      background-image: url('/images/background-imprint-tv.jpg');
+      background-position: top center;
+    }
+  }
 }
 
 .thtrm-banner-logo {
