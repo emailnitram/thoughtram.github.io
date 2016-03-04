@@ -36,120 +36,105 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
-    <!-- Add your site or app content here -->
-
-    <!--[if lt IE 10]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <header role="banner" class="thtrm-l-header has-backface-visibility--hidden">
-      <div class="thtrm-l-header__bar">
-        <h1 class="thtrm-l-header__logo"><a href="/" title="thoughtram official website"  aria-hidden="true">thoughtram</a></h1>
-        <button class="thtrm-l-header__menu-btn" role="button"><img src="images/hamburger.svg" alt="Menu"></button>
-        <section class="thtrm-l-header__bar__actions">
-          <ul class="thtrm-l-header__bar__actions__navigation">
-            <li><a href="/" title="Home" >Home</a></li>
-            <li><a href="/about-us.html" title="About us" >About us</a></li>
-            <li><a href="/products.html" title="Products" >Products</a></li>
-            <li><a href="/training.html" title="Training" >Training</a></li>
-            <li><a href="http://blog.thoughtram.io" title="Blog" >Blog</a></li>
+  <header class="thtrm-header" role="banner">
+      <div class="thtrm-header-bar">
+        <a href="/" title="thoughtram.io Start Page"><h1 class="thtrm-header-logo">thoughtram</h1></a>
+        <div class="thtrm-header-menu-wrapper">
+          <span role="button" tabindex="0" class="thtrm-header-menu-label">Menu</span>
+          <ul class="thtrm-header-menu">
+            <li><a title="Training" class="thtrm-header-menu-item" href="/training.html">Training</a></li>
+            <li><a title="Code Review" class="thtrm-header-menu-item" href="/code-review.html">Code Review</a></li>
+            <li><a title="Blog" class="thtrm-header-menu-item" href="http://blog.thoughtram.io">Blog</a></li>
           </ul>
-        </section>
+        </div>
       </div>
     </header>
-
-    <nav role="navigation" class="thtrm-l-navdrawer has-backface-visibility--hidden">
-      <h4 class="thtrm-l-navdrawer__headline">Navigation</h4>
-      <ul class="thtrm-l-navdrawer__navigation">
-        <li><a href="/" title="Home" >Home</a></li>
-        <li><a href="/about-us.html" title="About us" >About us</a></li>
-        <li><a href="/products.html" title="Products" >Products</a></li>
-        <li><a href="/training.html" title="Training" >Training</a></li>
-        <li><a href="http://blog.thoughtram.io" title="Blog" >Blog</a></li>
-      </ul>
-    </nav>
-
-    <main role="main" class="thtrm-l-main" itemprop="mainContentOfPage">
-      <section class="thtrm-m-section">
-        <div class="thtrm-l-constraint">
-          <div class="thtrm-m-section__content">
-            <h1 class="thtrm-m-section__headline">Impressum</h1>
-            <dl class="definition-list">
-              <dt>Angaben gem. § 5 TMG:</dt>
-              <dd>
+    <main role="main" class="thtrm-main">
+      <div class="thtrm-banner --imprint">
+        <hgroup class="thtrm-banner-container">
+          <h2 class="thtrm-banner-text">Imprint</h2>
+        </hgroup>
+      </div>
+      <section class="thtrm-section --slim">
+        <div class="thtrm-table-layout">
+          <div class="thtrm-table-layout-row --with-three-columns">
+            <div class="thtrm-table-layout-cell">
+              <strong>Address:</strong><br>
               <address>
                 thoughtram GmbH<br>
                 Helmkestrasse 12<br>
                 30165 Hannover<br>
               </address>
-              </dd>
-              <dt>E-Mail:</dt>
-              <dd>hello@thoughtram.io</dd>
-              <dt>Geschäftsführer:</dt>
-              <dd>Christoph Burgdorf, Pascal Precht</dd>
-              <dt>Sitz der Gesellschaft:</dt>
-              <dd>Hannover</dd>
-              <dt>Registergericht:</dt>
-              <dd>Amtsgericht Hannover</dd>
-              <dt>Registernummer:</dt>
-              <dd>HRB 211670 B</dd>
-              <dt>Umsatzsteuer-ID:</dt>
-              <dd>DE296749725</dd>
-              <dt>Verantwortlich für den Inhalt:</dt>
-              <dd>Pascal Precht</dd>
-            </dl>
-            <h3>Copyright</h3>
-            <p>Alle Texte, Bilder und Illustrationen auf dieser Seite sind, sofern nicht anders angegeben, lizensiert unter CC BY-NC-SA 4.0 (<a title="Link zu license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" >Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>).</p>
-
-            <h3>Datenschutzerklärung</h3>
-            <h4>Allgemeines</h4>
-            <p>Als Diensteanbieter weist thoughtram GmbH die Besucher dieser Website nach dem Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG) darauf hin, dass beim Besuch der Website Daten erhoben und verarbeitet werden. Diese Datenschutzerklärung ist für die Besucher der Website jederzeit abrufbar.</p>
-
-            <h4>Nutzungsdaten</h4>
-            <p>Beim Besuch der Website werden von den Besuchern personenbezogene Daten erhoben, die die Nutzung der Website ermöglichen (Nutzungsdaten). Insbesondere handelt es sich dabei um Merkmale zur Identifikation und um Angaben über den Beginn, das Ende, die Dauer und den Umfang der Nutzung der Website. Diese Daten werden nur intern zur Erstellung von Zugriffsstatistiken genutzt und werden nicht mit anderen Daten zusammengeführt. Somit ist eine Zuordnung der Daten zu einer bestimmten Person nicht möglich.</p>
-
-            <p>Zu Zwecken der Werbung, der Marktforschung und zur bedarfsgerechten Gestaltung der Website können von thoughtram GmbH unter Verwendung von Pseudonymen Nutzungsprofile erstellt werden. Die Nutzungsprofile können jedoch nicht mit den Daten über den Träger des Pseudonyms zusammengeführt werden. Der Nutzer der Website kann der Erstellung eines Nutzungsprofiles widersprechen.</p>
-
-            <p>Zur Erstellung von Zugriffsstatistiken werden beim Abruf der Website die folgenden Daten erfasst: IP-Adresse URL der abgerufenen Seite Referer (die vorhergehende Seite, von welcher an die aufgerufene Seite weiterverwiesen wurden) Datum und Uhrzeit des Zugriffs Dauer des Zugriffs Die beim Besuch der Website erhobenen Daten werden nur intern zu den genannten Zwecken genutzt und nicht an Dritte weitergegeben.</p>
-
-
-            <h4>Widerspruch, Widerruf, Auskunft, Berichtigung, Sperrung, Löschung</h4>
-            <p>Der Nutzer der Website von thoughtram GmbH hat das Recht, die Einwilligung zur Nutzung seiner Daten gemäß § 15 Abs. 2 Nr. 4 TMG zu widerrufen sowie jederzeit Auskunft über die im Rahmen der Nutzung erhobenen Daten zu verlangen. Er hat außerdem das Recht, in dem gesetzlich vorgesehenen Rahmen die Berichtigung, Sperrung oder Löschung dieser Daten zu verlangen. Zur Wahrnehmung der vorstehenden Rechte oder zur Erklärung des Widerspruches zur Erstellung eines Nutzerprofiles sendet der Nutzer eine E-Mail an die im Impressum der Website genannte E-Mail-Adresse und nennt – soweit für sein Verlangen erforderlich – seine IP-Adresse und den Zeitpunkt des Zugriffs. thoughtram GmbH wird daraufhin die verlangte Auskunft erteilen und die Berichtigung, Sperrung oder Löschung der Daten veranlassen, soweit dies möglich ist. Die Auskunftserteilung kann auf Verlangen auch elektronisch erfolgen.</p>
+            </div>
+            <div class="thtrm-table-layout-cell">
+              <strong>E-Mail:</strong> <br>
+              hello@thoughtram.io
+            </div>
+            <div class="thtrm-table-layout-cell">
+              <strong>Geschäftsführer:</strong> <br>
+              Christoph Burgdorf, <br> Pascal Precht
+            </div>
           </div>
         </div>
+        <div class="thtrm-table-layout">
+          <div class="thtrm-table-layout-row --with-three-columns">
+            <div class="thtrm-table-layout-cell">
+              <strong>Sitz der Gesellschaft:</strong><br>
+              Hannover
+            </div>
+            <div class="thtrm-table-layout-cell">
+              <dt>Registergericht:</dt>
+          <dd>Amtsgericht Hannover</dd>
+            </div>
+            <div class="thtrm-table-layout-cell">
+              <dt>Registernummer:</dt>
+          <dd>HRB 211670 B</dd>
+            </div>
+          </div>
+        </div>
+        <div class="thtrm-table-layout">
+          <div class="thtrm-table-layout-row --with-three-columns">
+            <div class="thtrm-table-layout-cell">
+              <dt>Umsatzsteuer-ID:</dt>
+          <dd>DE296749725</dd>
+            </div>
+            <div class="thtrm-table-layout-cell">
+          <dt>Verantwortlich für den Inhalt:</dt>
+          <dd>Pascal Precht</dd>
+            </div>
+          </div>
+        </div>
+        <h3>Copyright</h3>
+        <p>Alle Texte, Bilder und Illustrationen auf dieser Seite sind, sofern nicht anders angegeben, lizensiert unter CC BY-NC-SA 4.0 (<a title="Link zu license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" >Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>).</p>
+
+        <h3>Datenschutzerklärung</h3>
+        <h4>Allgemeines</h4>
+        <p>Als Diensteanbieter weist thoughtram GmbH die Besucher dieser Website nach dem Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG) darauf hin, dass beim Besuch der Website Daten erhoben und verarbeitet werden. Diese Datenschutzerklärung ist für die Besucher der Website jederzeit abrufbar.</p>
+
+        <h4>Nutzungsdaten</h4>
+        <p>Beim Besuch der Website werden von den Besuchern personenbezogene Daten erhoben, die die Nutzung der Website ermöglichen (Nutzungsdaten). Insbesondere handelt es sich dabei um Merkmale zur Identifikation und um Angaben über den Beginn, das Ende, die Dauer und den Umfang der Nutzung der Website. Diese Daten werden nur intern zur Erstellung von Zugriffsstatistiken genutzt und werden nicht mit anderen Daten zusammengeführt. Somit ist eine Zuordnung der Daten zu einer bestimmten Person nicht möglich.</p>
+
+        <p>Zu Zwecken der Werbung, der Marktforschung und zur bedarfsgerechten Gestaltung der Website können von thoughtram GmbH unter Verwendung von Pseudonymen Nutzungsprofile erstellt werden. Die Nutzungsprofile können jedoch nicht mit den Daten über den Träger des Pseudonyms zusammengeführt werden. Der Nutzer der Website kann der Erstellung eines Nutzungsprofiles widersprechen.</p>
+
+        <p>Zur Erstellung von Zugriffsstatistiken werden beim Abruf der Website die folgenden Daten erfasst: IP-Adresse URL der abgerufenen Seite Referer (die vorhergehende Seite, von welcher an die aufgerufene Seite weiterverwiesen wurden) Datum und Uhrzeit des Zugriffs Dauer des Zugriffs Die beim Besuch der Website erhobenen Daten werden nur intern zu den genannten Zwecken genutzt und nicht an Dritte weitergegeben.</p>
+
+
+        <h4>Widerspruch, Widerruf, Auskunft, Berichtigung, Sperrung, Löschung</h4>
+        <p>Der Nutzer der Website von thoughtram GmbH hat das Recht, die Einwilligung zur Nutzung seiner Daten gemäß § 15 Abs. 2 Nr. 4 TMG zu widerrufen sowie jederzeit Auskunft über die im Rahmen der Nutzung erhobenen Daten zu verlangen. Er hat außerdem das Recht, in dem gesetzlich vorgesehenen Rahmen die Berichtigung, Sperrung oder Löschung dieser Daten zu verlangen. Zur Wahrnehmung der vorstehenden Rechte oder zur Erklärung des Widerspruches zur Erstellung eines Nutzerprofiles sendet der Nutzer eine E-Mail an die im Impressum der Website genannte E-Mail-Adresse und nennt – soweit für sein Verlangen erforderlich – seine IP-Adresse und den Zeitpunkt des Zugriffs. thoughtram GmbH wird daraufhin die verlangte Auskunft erteilen und die Berichtigung, Sperrung oder Löschung der Daten veranlassen, soweit dies möglich ist. Die Auskunftserteilung kann auf Verlangen auch elektronisch erfolgen.</p>
       </section>
     </main>
-    <footer role="contentinfo" class="thtrm-l-footer">
-      <div class="thtrm-l-constraint">
-        <ul class="thtrm-l-footer__list">
-          <li><a href="/" title="Home" >Home</a></li>
-          <li><a href="/about-us.html" title="About us" >About us</a></li>
-          <li><a href="/products.html" title="Products" >Products</a></li>
-          <li><a href="/training.html" title="Training" >Training</a></li>
-          <li><a href="http://blog.thoughtram.io" title="thoughtram blog" >Blog</a></li>
-        </ul>
-      </div>
-      <div class="thtrm-l-footer__bottom">
-        <div class="thtrm-l-constraint clear">
-          <div class="thtrm-m-footer__bottom__logo-slogan">
-            <img src="images/thoughtram-brain-white.png" alt="thoughtram logo">
-            <p>We are <img alt="thoughtram" src="images/thoughtram-logo-line-white.png"></p>
-          </div>
-          <p>&copy; 2014 thoughtram GmbH  </p>
-          <ul class="thtrm-m-list thtrm-m-list--horizontally">
-            <li><a href="http://github.com/thoughtram" title="thoughtram on GitHub" ><i class="fa fa-github"></i></a></li>
-            <li><a href="http://twitter.com/thoughtram" title="thoughtram on Twitter" ><i class="fa fa-twitter"></i></a></li>
-            <li><a href="http://facebook.com/thoughtram" title="thoughtram on facebook" ><i class="fa fa-facebook"></i></a></li>
-            <li><a href="http://plus.google.com/+thoughtramio" title="thoughtram on Google Plus" ><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="http://www.youtube.com/channel/UCBn1x1RwoQkLmC8UPCNty0Q" title="thoughtram on Youtube" ><i class="fa fa-youtube"></i></a></li>
-            <li><a href="/code-of-conduct.html" title="thoughtram's code of conduct" >Code of Conduct</a></li>
-            <li><a href="/impressum.html" title="Impressum" >Impressum</a></li>
-          </ul>
-        </div>
+    <footer class="thtrm-footer --slim">
+     <!--  <p class="thtrm-footer-text-cta">Need a training or code review? <a href="mailto:hello@thoughtam.io" title="Contact thoughtram" class="thtrm-footer-cta">Contact us</a></p> -->
+      <div class="thtrm-footer-text">
+        <img class="thtrm-footer-logo" alt="thoughtram brain" src="/images/thoughtram-brain-white.png">
+        <p>This website was created in collaboration with <a href="http://twitter.com/timche_" title="Tim Cheung on Twitter">Tim Cheung</a>.</p>
+        <p>&copy; 2015 thoughtram GmbH</p>
+        <p class="thtrm-footer-bottom"><a href="/impressum.html" title="Impressum">Impressum</a></p>
       </div>
     </footer>
 
     <!-- build:js scripts/main.min.js -->
-    <script src="scripts/main.js"></script>
+    <!-- <script src="scripts/main.js"></script> -->
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -161,6 +146,5 @@
       ga('create', 'UA-51360648-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <!-- Built with love using Web Starter Kit -->
   </body>
 </html>

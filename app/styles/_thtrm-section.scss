@@ -28,6 +28,12 @@
       transform: translateX(-50%);
     }
   }
+  &.--slim {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
 
   @include tablet {
     padding: 4em 4em 5em;
