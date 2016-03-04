@@ -99,6 +99,13 @@ address {
   background: #eee;
 }
 
+.thtrm-imprint {
+  .thtrm-main {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+}
+
 @import 'thtrm-header',
         'thtrm-banner',
         'thtrm-section',
