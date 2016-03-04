@@ -46,9 +46,7 @@
     margin-right: auto;
     text-align: left;
 
-    &:after {
-      content: '';
-      clear: both;
+    @include tablet {
       display: table;
     }
   }
@@ -166,7 +164,7 @@
 
 .thtrm-section-left {
   @include tablet {
-    display: inline-block;
+    display: table-cell;
     margin-right: -4px;
     padding-right: 30px;
     vertical-align: middle;
@@ -189,7 +187,7 @@
   text-align: center;
 
   @include tablet {
-    display: inline-block;
+    display: table-cell;
     margin-top: 0;
     vertical-align: middle;
     width: 40%;
