@@ -34,6 +34,12 @@
     margin-right: auto;
     text-align: left;
   }
+  &.--tall-distance-top {
+    padding-top: 1.5em;
+  }
+  &.--tall-distance-bottom {
+    padding-bottom: 1.5em;
+  }
 
   @include tablet {
     padding: 4em 4em 5em;
