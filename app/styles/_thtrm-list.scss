@@ -71,6 +71,14 @@
     line-height: 1;
     text-transform: uppercase;
 
+    + li {
+      border-top-width: 0;
+
+      @include phablet {
+        border-top-width: 3px;
+      }
+    }
+
     @include phablet {
       display: table-cell;
       padding-bottom: 4em;

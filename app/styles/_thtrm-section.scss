@@ -40,6 +40,18 @@
   &.--tall-distance-bottom {
     padding-bottom: 1.5em;
   }
+  &.--full-row {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+    &:after {
+      content: '';
+      clear: both;
+      display: table;
+    }
+  }
 
   @include tablet {
     padding: 4em 4em 5em;
@@ -148,5 +160,48 @@
   &:hover {
     color: rgb(56, 76, 84);
     background-color: #fff;
+  }
+}
+
+
+.thtrm-section-left {
+  @include tablet {
+    display: inline-block;
+    margin-right: -4px;
+    padding-right: 30px;
+    vertical-align: middle;
+    width: 60%;
+    text-align: left;
+  }
+  @include desktop {
+    width: 70%;
+  }
+
+  * {
+    @include tablet {
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+}
+.thtrm-section-right {
+  margin-top: 1em;
+  text-align: center;
+
+  @include tablet {
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: middle;
+    width: 40%;
+    text-align: right;
+  }
+  @include desktop {
+    width: 30%;
+  }
+
+  .thtrm-cta {
+    @include tablet {
+      margin-top: 0;
+    }
   }
 }
