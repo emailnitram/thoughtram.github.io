@@ -39,6 +39,7 @@
       color: #AAA;
       font-size: 20px;
       margin-top: 1em;
+      font-weight: 500;
     }
 
     a {
@@ -111,9 +112,9 @@
 
 
 .thrm-list-logos li {
-  opacity: 0.5;
+  opacity: 0.8;
 
-  &:hover {
-    opacity: 1;
-  }
+  // &:hover {
+  //   opacity: 1;
+  // }
 }
