@@ -31,6 +31,7 @@
   &.thtrm-section--symbol {
     padding-top: 10em;
     position: relative;
+    text-align: center;
 
     @include tablet {
       padding-top: 10em;
@@ -41,9 +42,9 @@
 
     .thtrm-section-image {
       left: 50%;
+      margin-left: -50px;
       position: absolute;
       top: 2em;
-      transform: translateX(-50%);
     }
   }
   @include tablet {

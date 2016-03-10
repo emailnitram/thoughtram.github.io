@@ -37,6 +37,7 @@ body {
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
 img {
+  border: none;
   vertical-align: middle;
 }
 
@@ -78,17 +79,8 @@ address {
 
 .thtrm-main {
   margin: 0 auto;
-  margin-top: -70px;
   padding: 0 0 0 0;
   min-height: 100%;
-
-  @include tablet {
-    margin-top: -125px;
-
-    // .--sub-site & {
-    //   margin-top: 0;
-    // }
-  }
 
   @include desktop {
     min-height: initial;

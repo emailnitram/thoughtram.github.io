@@ -4,6 +4,7 @@
 
   @include tablet {
     display: table;
+    table-layout: fixed;
     overflow: hidden;
     border-collapse: collapse;
   }

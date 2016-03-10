@@ -2,7 +2,7 @@
   background-color: #4D8799;
   background-color: #90BAC7;
   // background-color: #384c54;
-  background-image: url('/images/instructor-christoph.jpg'), linear-gradient(transparent, #384c54);
+  background-image: url('/images/instructor-christoph.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -12,7 +12,7 @@
   height: 500px;
 
   .thtrm-table-layout-cell:nth-child(2) & {
-    background-image: url('/images/instructor-pascal.jpg'), linear-gradient(transparent, #384c54);
+    background-image: url('/images/instructor-pascal.jpg');
 ;
   }
 
