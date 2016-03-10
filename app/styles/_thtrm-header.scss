@@ -159,7 +159,7 @@
 
   &:hover,
   &:focus,
-  &.--active {
+  &.active {
     background-color: #123742;
     color: #fff;
   }
@@ -172,7 +172,7 @@
 
     &:hover,
     &:focus,
-    &.--active {
+    &.active {
       background: transparent;
       border: 2px solid #fff;
     }

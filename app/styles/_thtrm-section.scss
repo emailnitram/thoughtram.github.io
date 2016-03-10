@@ -3,23 +3,41 @@
   text-align: center;
   background-color: #fff;
 
-  &.--is-promo {
+  &--is-promo {
     background: rgba(56, 76, 84, 1);
     padding: 3em 2em;
   }
 
-  &.--banner {
+  &--banner {
     background: rgba(56, 76, 84, 1);
     padding: 12em 1.5em 10em;
   }
 
-  &.--is-light {
+  &--is-light {
     background: #f2f2f2;
   }
-
-  &.--symbol {
+  &--slim {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  &--tall-distance-top {
+    padding-top: 1.5em;
+  }
+  &--tall-distance-bottom {
+    padding-bottom: 1.5em;
+  }
+  &.thtrm-section--symbol {
     padding-top: 10em;
     position: relative;
+
+    @include tablet {
+      padding-top: 10em;
+    }
+    @include desktop {
+      padding-top: 10em;
+    }
 
     .thtrm-section-image {
       left: 50%;
@@ -28,27 +46,13 @@
       transform: translateX(-50%);
     }
   }
-  &.--slim {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-  }
-  &.--tall-distance-top {
-    padding-top: 1.5em;
-  }
-  &.--tall-distance-bottom {
-    padding-bottom: 1.5em;
-  }
-
   @include tablet {
     padding: 4em 4em 5em;
 
-    &.--banner {
+    &.thtrm-section--banner {
       padding: 12em 4em 14em;
     }
   }
-
   @include desktop {
     padding: 6em 4em;
   }
@@ -72,18 +76,18 @@
   margin: 0;
   color: rgba(56, 76, 84, 1);
 
-  .--is-promo & {
+  .thtrm-section--is-promo & {
     color: #fff;
     font-size: 24px;
   }
 
-  .--banner & {
+  .thtrm-section--banner & {
     color: #fff;
   }
 
   @include tablet {
     font-size: 30px;
-    .--banner & {
+    .thtrm-section--banner & {
       font-size: 42px;
     }
   }
@@ -112,14 +116,14 @@
   line-height: 28px;
   position: relative;
 
-  .--is-promo & {
+  .thtrm-section--is-promo & {
     color: #fff;
     margin-top: 0.5em;
     font-size: 18px;
     line-height: 24px;
   }
 
-  .--banner & {
+  .thtrm-section--banner & {
     color: #fff;
   }
 
@@ -140,7 +144,7 @@
   margin-top: 1em;
   // transition: (color .2s ease-out, background .2s ease-in);
 
-  .--is-promo & {
+  .thtrm-section--is-promo & {
     color: #fff;
     border-color: #fff;
   }

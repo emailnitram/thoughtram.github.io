@@ -17,11 +17,11 @@
     background-image: url('/images/intro-background-desktop.jpg');
   }
 
-  .--sub-site & {
+  .sub-site & {
     background-size: cover;
   }
 
-  &.--training {
+  &--training {
     background-image: url('/images/teaser-background-onsite-training.jpg');
 
     @include desktop {
@@ -29,7 +29,7 @@
     }
   }
 
-  &.--code-review {
+  &--code-review {
     background-image: url('/images/teaser-background-code-review.jpg');
 
     @include phablet {
@@ -41,7 +41,7 @@
     }
   }
 
-  &.--a2mc {
+  &--a2mc {
     background-position: left center;
     background-image: url('/images/background-ng-connect.jpg');
 
@@ -50,7 +50,7 @@
     }
   }
 
-  &.--imprint {
+  &--imprint {
     background-image: url('/images/background-imprint.jpg');
 
     @include tv {
@@ -121,7 +121,7 @@
 .thtrm-banner-container {
   padding: 10em 0.5em;
 
-  .--sub-site & {
+  .sub-site & {
     padding: 8em 0.5em;
 
     @include tablet {
@@ -139,7 +139,7 @@
     padding-top: 23em;
     padding-bottom: 21em;
 
-    .--class & {
+    .thtrm-banner--class & {
       padding-top: 10em;
       padding-bottom: 8em;
     }

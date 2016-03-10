@@ -9,7 +9,7 @@
   background-blend-mode: multiply;
   text-align: center;
   position: relative;
-  
+
   @include phablet {
     padding-bottom: 40%;
   }
@@ -25,16 +25,16 @@
     height: 320px;
     padding-bottom: 0;
   }
-  
-  .--mike-adolphs & {
+
+  .thtrm-testimonial--mike-adolphs & {
     background-image: url('/images/testimonial-mike.png'), linear-gradient(transparent, #384c54);
   }
 
-  .--celine-kurpershoek & {
+  .thtrm-testimonial--celine-kurpershoek & {
     background-image: url('/images/testimonial-celine.jpg'), linear-gradient(transparent, #384c54);
   }
 
-  .--brad-green & {
+  .thtrm-testimonial--brad-green & {
     background-image: url('/images/testimonial-brad-green.jpg'), linear-gradient(transparent, #384c54);
   }
 }

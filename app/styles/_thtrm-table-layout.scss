@@ -8,24 +8,24 @@
     border-collapse: collapse;
   }
 
-  &.--space {
+  &--space {
     margin-top: 3em;
   }
-  &.--slim-space {
+  &--slim-space {
     margin-top: 1em;
   }
 
-  &.--filled {
+  &--filled {
     background: #384c54;
   }
-  &.--filled-space {
+  &--filled-space {
     background: #384c54;
     border-top: 2em solid #384c54;
   }
-  &.--filled-space + &.--filled-space {
+  &--filled-space + &--filled-space {
     border-top: none;
   }
-  &.--filled-space.--last {
+  &--filled-space.thtrm-table-layout--last {
     border-bottom: 2em solid #384c54;
     border-top: none;
   }
@@ -45,7 +45,7 @@
   @include tablet {
     display: table-cell;
 
-    .--with-two-columns & {
+    .thtrm-table-layout-row--with-two-columns & {
       width: 50%;
 
       &.thtrm-teaser-image {
@@ -53,15 +53,15 @@
       }
     }
 
-    .--with-three-columns & {
+    .thtrm-table-layout-row--with-three-columns & {
       width: 33.333333%;
     }
 
-    .--with-four-columns & {
+    .thtrm-table-layout-row--with-four-columns & {
       width: 25%;
     }
   }
-  &.--bordered {
+  &--bordered {
     padding: 3em;
     box-shadow: inset 0 0 0 20px #384c54, inset 0 0 0 22px #fff;
 
