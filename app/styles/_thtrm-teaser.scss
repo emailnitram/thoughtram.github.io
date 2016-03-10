@@ -16,7 +16,7 @@
     padding: 10em 0 6em;
   }
 
-  &.--code-review {
+  &--code-review {
     background-image: url('/images/teaser-background-code-review.jpg');
 
     @include phablet {
@@ -24,7 +24,7 @@
     }
   }
 
-  &.--online-training {
+  &--online-training {
     background-image: url('/images/teaser-background-online-training.jpg');
 
     @include phablet {
@@ -32,7 +32,7 @@
     }
   }
 
-  &.--onsite-training {
+  &--onsite-training {
     background-image: url('/images/teaser-background-onsite-training.jpg');
 
     @include phablet {
@@ -77,31 +77,31 @@
   background-color: #90BAC7;
   background-blend-mode: multiply;
 
-  &.--conversation {
+  &--conversation {
     background-image: url('/images/teaser-background-online-training_phablet.jpg');
   }
 
-  &.--group {
+  &--group {
     background-image: url('/images/background-ng-connect.jpg');
   }
 
-  &.--other {
+  &--other {
     background-image: url('/images/background-onsite-training-2.jpg');
   }
 
-  &.--banner2 {
+  &--banner2 {
     background-image: url('/images/event-banner-2.jpg');
   }
 
-  &.--review {
+  &--review {
     background-image: url('/images/code-review.jpg');
   }
 
-  &.--review2 {
+  &--review2 {
     background-image: url('/images/event-banner-4.jpg');
   }
 
-  &.--testimonial-brad {
+  &--testimonial-brad {
     background-image: url('/images/testimonial-brad-green.png');
   }
 }
