@@ -56,6 +56,12 @@
   }
   @include desktop {
     padding: 6em 4em;
+
+    .thtrm-home & {
+      &.thtrm-section--is-promo {
+        padding: 4em;
+      }
+    }
   }
 }
 
